@@ -32,8 +32,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 relative overflow-hidden rounded-md bg-brand-navy border border-white/10">
-                <Image src="/logo.png" alt="Braga & Campos Logo" fill className="object-contain p-1" />
+              <div className="w-16 h-16 relative">
+                <Image src="/logo.png" alt="Braga & Campos Logo" fill className="object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-bold text-xl leading-none tracking-wide text-brand-gold">

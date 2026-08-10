@@ -37,8 +37,8 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-12 h-12 relative overflow-hidden rounded-md shadow-sm group-hover:shadow-md transition-shadow bg-brand-navy">
-             <Image src="/logo.png" alt="Braga & Campos Logo" fill className="object-contain p-1" />
+          <div className="w-16 h-16 relative transition-transform group-hover:scale-105">
+             <Image src="/logo.png" alt="Braga & Campos Logo" fill className="object-contain" />
           </div>
           <div className="flex flex-col">
             <span className={`font-heading font-bold text-xl leading-none tracking-wide ${scrolled ? 'text-brand-navy' : 'text-brand-navy drop-shadow-sm'}`}>
